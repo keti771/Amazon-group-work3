@@ -112,7 +112,7 @@ public class CellphonesPage extends BasePage {
     public void goToCart() {
         wait.until(ExpectedConditions.elementToBeClickable(cartBtn)).click();
     }
-
+// subtotal validation
         @Step("Validate subtotal")
     public boolean validateSubtotal() {
 
