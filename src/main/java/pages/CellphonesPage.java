@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
 
 public class CellphonesPage extends BasePage {
-
+// cart validation logic
     public CellphonesPage(WebDriver driver) {
         super(driver);
     }
